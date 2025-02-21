@@ -6,7 +6,7 @@
 /*   By: josfelip <josfelip@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/18 10:30:00 by josfelip          #+#    #+#             */
-/*   Updated: 2025/02/20 11:42:10 by josfelip         ###   ########.fr       */
+/*   Updated: 2025/02/21 11:55:41 by josfelip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,6 @@
 #include <list>
 #include <deque>
 
-/*
-** Test the easyfind function with a std::vector container
-*/
 void	testVector(void)
 {
 	std::cout << "=== Testing std::vector ===" << std::endl;
@@ -111,7 +108,6 @@ void	testDeque(void)
 
 int	main(void)
 {
-	// Test our easyfind function with different container types
 	testVector();
 	testList();
 	testDeque();
